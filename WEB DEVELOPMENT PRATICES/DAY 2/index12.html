@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2::first-letter{
+            text-transform: uppercase;
+            color: red;
+
+        }
+        p::first-line{
+            background-color: red;
+            font-size: 20px;
+        }
+        h2::before{
+            content: "we represent the ";
+            color: pink;
+        }
+        h2::after{
+            content: " used";
+            color: blue;
+        }
+        p::selection{
+            background-color: pink;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Psuedo Element Selectors in CSS</h1>
+    <div>
+        <h2>this is header1</h2>
+        <h2>this is header2</h2>
+        <h2>this is header3</h2>
+        <h2>this is header4</h2>
+        <h2>this is header5</h2>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, sit. Amet distinctio magni necessitatibus, consectetur quod praesentium corrupti at commodi laboriosam, itaque voluptate dolorum id, inventore voluptas tempore ullam enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem necessitatibus nulla voluptas, sunt minima reiciendis quod cupiditate consequuntur voluptatibus vero voluptatem asperiores quidem, dolorem ea explicabo magni sapiente possimus.</p>
+    
+</body>
+</html>

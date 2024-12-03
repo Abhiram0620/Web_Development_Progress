@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1:focus{
+            color: black;
+            width: 400px;
+            background-color: gray;
+
+        }
+        #p11:required{
+            width: 300px;
+            height: 50px;
+            background-color: gray;
+            color: black;
+        }
+        
+        #optinal:optional{
+            color: black;
+            background-color: gray;
+        }
+        #valid:valid{
+            background-color: red;
+        }
+        #invalid:invalid{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo class Selectors</h1>
+    <h2>focus</h2>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit tenetur ipsum hic! Laborum adipisci, quasi, sequi et assumenda nihil eius sapiente necessitatibus ratione sed eaque vitae ducimus, ipsum quis.</p>
+    name: <input type="text" name="" id="p1" placeholder="enter name">
+    <h2>required</h2>
+    name: <input type="text" name="" id="p11" placeholder="enter name" required>
+    roll no: <input type="text" name="" id="p11" placeholder="enter name" required>
+    <h2>optinal</h2>
+    name: <input type="text" name="" id="optinal">
+    roll: <input type="text" name="" id="optinal" required>
+    email: <input type="email" name="" id="optinal">
+    <h2>Valid</h2>
+    name: <input type="text" name="" id="valid" minlength="10">
+    <h2>Invalid</h2>
+    name: <input type="text" name="" id="invalid" minlength="3">
+    
+</body>
+</html>

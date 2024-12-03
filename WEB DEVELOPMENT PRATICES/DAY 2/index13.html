@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p[t]::first-letter{
+            text-transform:capitalize;
+            font-size: 30px;
+        }
+        p[t="pp"]{
+            background-color: pink;
+        }
+        p[title]{
+            color: red;
+        }
+        p[title="para"]{
+            background-color: blue;
+        }
+        p[title~="para"]{
+            background-color: gray;
+        }
+
+        p[title |="para"]{
+            background-color: yellow;
+        }
+        p[title ^="para"]{
+            background-color: greenyellow;
+        }
+        p[title $="para"]{
+            background-color: rgb(118, 166, 255);
+        }
+        input[type="email"]{
+            border: 2px solig black;
+            width: 100px;
+            height: 50px;
+            background-color: aqua;
+            color: red;
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>Attribute Selector in CSS</h1>
+    <p t="p">this is paragraph 1</p>
+    <p t="pp"> this is paragraph 2</p>
+    <p>this is paragraph 3</p>
+    <p title="paragraph">this is para4</p>
+    <p title="para-graph">this is para5</p>
+    <p title="apara">this is para6</p>
+    <p title="aparaa">this is para7</p>
+    <p title="paragraph">this is para8</p>
+    <input type="email" name="" id="">
+    <input type="text" name="" id="">
+
+    
+</body>
+</html>
