@@ -1,0 +1,29 @@
+.parent{
+    width: 1000px;
+    height: 100vh;
+    display: inline;
+}
+.c1{
+    padding: 25%;
+    border: 2px solid black;
+    
+}
+.c2
+{       padding: 100px;
+        border: 2px solid black;
+}
+
+.c3{
+    padding: 10%;
+    border: 2px solid black;
+}
+.c4{
+    padding: 50%;
+    border: 2px solid black;
+}
+.c5{
+    padding:100%;
+    border: 2px solid black;
+
+
+}
