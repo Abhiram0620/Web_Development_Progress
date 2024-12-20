@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 250px;
+        }
+        #div1{
+            background-color: red;
+            z-index: 1;
+        }
+        #div2{
+            background-color: blue;
+            z-index: 1;
+        }
+        #div2:active{
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Z index</h1>
+    <div id="div1">
+        <h2>Abhi Ram Reddy</h2>
+        <h2>Tallapureddy</h2>
+        <h2>dob:- 20-06-2005</h2>
+    </div>
+    <div id="div2">
+        <h2>ABHI RAM REDDY</h2>
+        <h2>TALLAPUREDDY</h2>
+        <h2>DOB:- 2005-06-20</h2>
+    </div>
+    
+</body>
+</html>
