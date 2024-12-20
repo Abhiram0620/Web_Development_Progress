@@ -1,0 +1,11 @@
+#element     {
+    padding: 20px 30px 40px 50px;  /* top right bottom left */
+    border: 10px solid black;
+    width: 200px;
+    background-color: red;
+
+    
+}
+div{
+    width: 500px;
+}
